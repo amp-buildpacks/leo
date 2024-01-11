@@ -1,3 +1,6 @@
+[buildpack]
+  uri = "build/buildpack.tgz"
+
 [[dependencies]]
   uri = "docker://ghcr.io/amp-buildpacks/leo-dist:0.1.0"
 
