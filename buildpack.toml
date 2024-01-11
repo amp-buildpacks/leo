@@ -1,0 +1,30 @@
+api = "0.8"
+
+[buildpack]
+  description = "A Cloud Native Buildpack with an order definition suitable for Leo applications"
+  homepage = "https://github.com/amp-buildpacks/leo"
+  id = "amp-buildpacks/leo"
+  keywords = ["Leo", "Aleo"]
+  name = "Paketo Buildpack for Leo"
+  version = "0.1.0"
+
+  [[buildpack.licenses]]
+    type = "Apache-2.0"
+    uri = "https://github.com/amp-buildpacks/leo/blob/main/LICENSE"
+
+[metadata]
+  include-files = ["LICENSE", "README.md", "buildpack.toml"]
+
+[[order]]
+  [[order.group]]
+    id = "amp-buildpacks/leo-dist"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "amp-buildpacks/aleo"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "5.6.8"
