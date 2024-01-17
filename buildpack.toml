@@ -5,7 +5,7 @@ api = "0.8"
   homepage = "https://github.com/amp-buildpacks/leo"
   id = "amp-buildpacks/leo"
   keywords = ["Leo", "Aleo"]
-  name = "Paketo Buildpack for Leo"
+  name = "AMP Buildpack for Leo"
   version = "0.1.0"
 
   [[buildpack.licenses]]
