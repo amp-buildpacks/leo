@@ -30,6 +30,7 @@ api = "0.8"
   include-files = ["LICENSE", "README.md", "buildpack.toml"]
 
 [[order]]
+
   [[order.group]]
     id = "amp-buildpacks/leo-dist"
     version = "0.1.3"
