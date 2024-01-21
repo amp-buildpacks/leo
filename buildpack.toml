@@ -15,7 +15,7 @@
 api = "0.8"
 
 [buildpack]
-  description = "A Cloud Native Buildpack with an order definition suitable for Leo applications"
+  description = "A Cloud Native Buildpack with an order definition suitable for Aleo applications"
   homepage = "https://github.com/amp-buildpacks/leo"
   id = "amp-buildpacks/leo"
   keywords = ["Leo", "Aleo"]
@@ -30,9 +30,10 @@ api = "0.8"
   include-files = ["LICENSE", "README.md", "buildpack.toml"]
 
 [[order]]
+
   [[order.group]]
     id = "amp-buildpacks/leo-dist"
-    version = "0.1.3"
+    version = "0.1.4"
 
   [[order.group]]
     id = "amp-buildpacks/aleo"
