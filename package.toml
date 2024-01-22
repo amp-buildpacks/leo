@@ -1,8 +1,11 @@
+[buildpack]
+uri = "buildpack"
+
 [[dependencies]]
   uri = "docker://ghcr.io/amp-buildpacks/leo-dist:0.1.4"
 
 [[dependencies]]
-  uri = "docker://ghcr.io/amp-buildpacks/aleo:0.1.2"
+  uri = "docker://ghcr.io/amp-buildpacks/aleo:0.1.4"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.6.8"
