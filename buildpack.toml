@@ -37,7 +37,7 @@ api = "0.8"
 
   [[order.group]]
     id = "amp-buildpacks/aleo"
-    version = "0.1.9"
+    version = "0.1.10"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
