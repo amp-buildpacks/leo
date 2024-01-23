@@ -33,11 +33,11 @@ api = "0.8"
 
   [[order.group]]
     id = "amp-buildpacks/leo-dist"
-    version = "0.1.4"
+    version = "0.1.6"
 
   [[order.group]]
     id = "amp-buildpacks/aleo"
-    version = "0.1.5"
+    version = "0.1.9"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
