@@ -65,7 +65,7 @@ jobs:
               env:
                 DESCRIPTOR: .github/pipeline-descriptor.yml
                 GITHUB_TOKEN: ${{ secrets.AMP_BUILDPACKS_BOT_GITHUB_TOKEN }}
-            - uses: peter-evans/create-pull-request@v5
+            - uses: peter-evans/create-pull-request@v6
               with:
                 author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
                 body: |-
