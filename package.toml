@@ -2,7 +2,7 @@
   uri = "docker://ghcr.io/amp-buildpacks/leo-dist:0.1.14"
 
 [[dependencies]]
-  uri = "docker://ghcr.io/amp-buildpacks/aleo:0.1.18"
+  uri = "docker://ghcr.io/amp-buildpacks/aleo:0.1.19"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.8.0"
