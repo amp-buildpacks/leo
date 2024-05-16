@@ -1,5 +1,5 @@
 [[dependencies]]
-  uri = "docker://ghcr.io/amp-buildpacks/leo-dist:0.1.16"
+  uri = "docker://ghcr.io/amp-buildpacks/leo-dist:0.1.17"
 
 [[dependencies]]
   uri = "docker://ghcr.io/amp-buildpacks/aleo:0.1.20"
