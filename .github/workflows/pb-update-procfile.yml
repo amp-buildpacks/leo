@@ -18,7 +18,7 @@ jobs:
                 username: ${{ github.actor }}
             - uses: actions/setup-go@v5
               with:
-                go-version: "1.22"
+                go-version: "1.23"
             - name: Install update-package-dependency
               run: |
                 #!/usr/bin/env bash
@@ -86,7 +86,7 @@ jobs:
               with:
                 author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
                 body: Bumps [`gcr.io/paketo-buildpacks/procfile`](https://gcr.io/paketo-buildpacks/procfile) from [`${{ steps.package.outputs.old-version }}`](https://gcr.io/paketo-buildpacks/procfile:${{ steps.package.outputs.old-version }}) to [`${{ steps.package.outputs.new-version }}`](https://gcr.io/paketo-buildpacks/procfile:${{ steps.package.outputs.new-version }}).
-                branch: update/packages
+                branch: update/package/procfile
                 commit-message: |-
                     Bump gcr.io/paketo-buildpacks/procfile from ${{ steps.package.outputs.old-version }} to ${{ steps.package.outputs.new-version }}
 
