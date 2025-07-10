@@ -1,10 +1,13 @@
 github:
   username: ${{ github.actor }}
-  token:    ${{ secrets.AMP_BUILDPACKS_BOT_GITHUB_TOKEN }}
+  token: ${{ secrets.AMP_BUILDPACKS_BOT_GITHUB_TOKEN }}
+  mappers:
+    - "|paketobuildpacks|paketo-buildpacks|"
+    - "|paketocommunity|paketo-community|"
 
 package:
-  repositories:   ["ghcr.io/amp-buildpacks/leo"]
-  register:       false
+  repositories: ["ghcr.io/amp-buildpacks/leo"]
+  register: false
   registry_token: ${{ secrets.AMP_BUILDPACKS_BOT_GITHUB_TOKEN }}
 
 docker_credentials:
