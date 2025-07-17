@@ -33,7 +33,7 @@ api = "0.8"
 
   [[order.group]]
     id = "amp-buildpacks/leo-dist"
-    version = "0.4.3"
+    version = "0.4.4"
 
   [[order.group]]
     id = "amp-buildpacks/aleo"
