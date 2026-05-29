@@ -5,7 +5,7 @@
   uri = "docker://ghcr.io/amp-buildpacks/aleo:0.6.4"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/procfile:5.13.2"
+  uri = "docker://docker.io/paketobuildpacks/procfile:5.13.3"
 
 [[targets]]
   arch = "amd64"
